@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.UpperP2 {
+  background: url(../../../../Images/PNG002.jpg) no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.UpperP2 .UpperP2-Linear-gradient {
+  transition: 1.5s ease-in;
+  background: linear-gradient(to right bottom, rgb(5, 5, 5), rgba(16, 66, 62, 0.795));
+}
+.UpperP2 .UpperP2-Linear-gradient:hover {
+  background: linear-gradient(to left bottom, rgb(5, 5, 5), rgba(17, 73, 69, 0.616));
+}/*# sourceMappingURL=Style.css.map */

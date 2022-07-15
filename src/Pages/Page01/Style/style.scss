@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.Header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right,rgb(59, 17, 17) 0%,rgb(0, 0, 0) 50%,
+    rgb(17, 9, 9) 60%,rgb(29, 11, 11) 78%,rgb(54, 19, 19) 90%,rgb(54, 9, 9));
+
+    background-size: cover;
+}
+.png01{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    right: 0px;
+    height: 90;
+   
+}
+.animateunderline{
+    position: relative;
+    transition: 0.2s ease all;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding-bottom: 0.1rem;
+    &:hover{
+        color: #00bcd4;
+        transform: perspective(100px) rotateX(45deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+         right: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: ghostwhite;
+        transition: 0.3s ease width;
+
+    }
+    &:hover::before{
+        width: 98%;
+        left: 0;
+        right: auto;
+       background-color: #26a69a;
+    }
+
+}
+.Header-middle-text{
+    transition: 0.5s ease-out all;
+    background-color: none;
+    
+    &:hover{
+        color: #2196f3
+        ;
+    }}
+    .Header-middle-text-M{
+        transition: 0.5s ease-out all;
+        background-color: none;
+        &:hover{
+            color:#f44336
+        }
+    }
+    .Header-middle-text-p{
+        transition: 0.3s ease-out all;
+        letter-spacing: 1px;
+        &:hover{
+            letter-spacing: 2px;
+            color:#26a69a;
+        }
+    }
+    .Header-middle-right{
+        position: absolute;
+        top: 65px;
+        transition: 0.5 ease ;
+        right: 43px;
+        z-index: 99;
+        .Header-middle-right-TF{
+            background-color:#020303;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 12px;
+            outline: none;
+            font-family: monospace;
+            color: aliceblue;
+         
+        }
+        .Header-middle-right-searchIcon{
+            border-radius: 0px;
+            
+        }
+    }
+    .Header-top-Htext{
+        transition: 0.25s ease-out;
+        letter-spacing: 1.5px;
+        &:hover{
+            
+            transform: perspective(100px) rotatex(35deg);
+            color:#651fff;
+        }
+    }
+   
+    

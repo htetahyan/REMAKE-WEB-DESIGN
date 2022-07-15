@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100;0,200;1,100&family=Roboto+Mono:wght@300&display=swap');
+.P{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+line-height: 1.4rem;
+    font-size: 0.7rem;
+    color: rgb(149, 153, 153);
+}
+.Middle-Btn{
+    &:focus{
+        border: none;
+    }
+}
+.Middle-Head-Text{
+    background: url(../../../Images/JPG001.jpg);
+    
+    color: transparent;
+    background-size: cover;
+    
+    background-position: top center;
+    background-clip: text;
+    z-index: 50;
+    transition: 0.3s ease-in;
+    &:hover{
+        background-position:  right;
+        transform: perspective(600px) rotateX(45deg);
+    }
+
+  }
+.Middle-p-head{
+    &::before{
+        content: "";
+        width: 100px;
+        height: 20px;
+        background-color: black;
+        color: black;
+    }
+}
+.Middle-Bottom-Logos{
+    width: 17.5vw;
+   
+}
