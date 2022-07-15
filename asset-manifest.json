@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/REMAKE-WEB-DESIGN/static/css/main.491f4ac9.css",
+    "main.js": "/REMAKE-WEB-DESIGN/static/js/main.c78f3aa1.js",
+    "static/media/JPG004.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG004.ce8c2e88c9048efc5028.jpg",
+    "static/media/JPG002.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG002.33345080344652cdfa4e.jpg",
+    "static/media/JPG005.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG005.9adbea4b45f6a0e15a91.jpg",
+    "static/media/JPG007.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG007.c320311faa4ff7d66441.jpg",
+    "static/media/JPG008.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG008.42e2f1b8a1e686130d91.jpg",
+    "static/media/PNG002.jpg": "/REMAKE-WEB-DESIGN/static/media/PNG002.9ab28d43d14a08255c0c.jpg",
+    "static/media/JPG003.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG003.9a8386fe49d5922e1693.jpg",
+    "static/media/JPG009.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG009.5ffaaaf88bbd0b9fc531.jpg",
+    "static/media/JPG006.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG006.b04785b45c97b556267e.jpg",
+    "static/media/JPG001.jpg": "/REMAKE-WEB-DESIGN/static/media/JPG001.3bde6dc825046a95c9ad.jpg",
+    "static/media/PNG001.png": "/REMAKE-WEB-DESIGN/static/media/PNG001.328ba2dbfbd2252f988c.png",
+    "index.html": "/REMAKE-WEB-DESIGN/index.html",
+    "main.491f4ac9.css.map": "/REMAKE-WEB-DESIGN/static/css/main.491f4ac9.css.map",
+    "main.c78f3aa1.js.map": "/REMAKE-WEB-DESIGN/static/js/main.c78f3aa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491f4ac9.css",
+    "static/js/main.c78f3aa1.js"
+  ]
+}
